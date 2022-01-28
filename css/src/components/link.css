@@ -1,6 +1,9 @@
 .Link {
   text-decoration: none;
   font-weight: var(--font-weight-medium);
+  transition: border-bottom var(--duration--fast-01) var(--standard-productive-curve),
+    color var(--duration--fast-01) var(--standard-productive-curve),
+    box-shadow var(--duration--fast-01) var(--standard-productive-curve);
 }
 
 .Link--regular {
